@@ -3,24 +3,32 @@ package com.example.demo.customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
 import java.util.List;
 
-@RequestMapping(path = "api/v1/customer")
+@RequestMapping(path = "api/v2/customers")
 @RestController
-@Deprecated
-public class CustomerController {
+public class CustomerControllerV2 {
 
     private final CustomerService customerService;
 
     @Autowired
-    public CustomerController(CustomerService customerService) {
+    public CustomerControllerV2(CustomerService customerService) {
         this.customerService = customerService;
     }
 
+    @GetMapping
+    List<Customer> getCustomers() {
+        return Arrays.asList(
+                new Customer(1L, "James Bond", "password123"),
+                new Customer(2L, "Jamila Armed", "password456"),
+                new Customer(3L, "Ole Olsen", "password789")
+        );
+    }
 
-    @GetMapping(value = "all")
-    List<Customer> getCustomer() {
-        return customerService.getCustomers();
+    @GetMapping(path = "{customerId}")
+    Customer getCustomer(@PathVariable("customerId") Long customerId) {
+        return customerService.getCustomer(customerId);
     }
 
     @PostMapping
