@@ -3,6 +3,7 @@ package com.example.demo.customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.Arrays;
 import java.util.List;
 
@@ -20,9 +21,9 @@ public class CustomerControllerV2 {
     @GetMapping
     List<Customer> getCustomers() {
         return Arrays.asList(
-                new Customer(1L, "James Bond", "password123"),
-                new Customer(2L, "Jamila Armed", "password456"),
-                new Customer(3L, "Ole Olsen", "password789")
+                new Customer(1L, "James Bond", "password123", "email1@gmail.com"),
+                new Customer(2L, "Jamila Armed", "password456", "email2@gmail.com"),
+                new Customer(3L, "Ole Olsen", "password789", "email3@gmail.com")
         );
     }
 
@@ -32,7 +33,7 @@ public class CustomerControllerV2 {
     }
 
     @PostMapping
-    public void createNewCustomer(@RequestBody Customer customer){
+    public void createNewCustomer(@Valid @RequestBody Customer customer){
         System.out.println("POST REQUEST");
         System.out.println(customer);
     }
