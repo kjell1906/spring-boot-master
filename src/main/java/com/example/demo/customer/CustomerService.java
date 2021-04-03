@@ -9,23 +9,21 @@ import java.util.List;
 @Component
 public class CustomerService {
 
-    private CustomerRepo customerRepo;
+    private CustomerRepository customerRepository;
 
     @Autowired
     public CustomerService(
-            CustomerRepo customerRepo) {
-        this.customerRepo = customerRepo;
+            CustomerRepository customerRepo) {
+        this.customerRepository = customerRepo;
     }
 
     List<Customer> getCustomers() {
-        return customerRepo.getCustomers();
+        return customerRepository.findAll();
     }
 
     Customer getCustomer(Long customerId) {
-        return customerRepo.getCustomers()
-                .stream()
-                .filter(customer -> customer.getId().equals(customerId))
-                .findFirst()
+        return customerRepository
+                .findById(customerId)
                 .orElseThrow(() -> new NotFoundException("Customer " + customerId +" not found"));
     }
 }

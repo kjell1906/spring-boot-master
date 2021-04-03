@@ -21,11 +21,7 @@ public class CustomerControllerV2 {
 
     @GetMapping
     List<Customer> getCustomers() {
-        return Arrays.asList(
-                new Customer(1L, "James Bond", "password123", "email1@gmail.com"),
-                new Customer(2L, "Jamila Armed", "password456", "email2@gmail.com"),
-                new Customer(3L, "Ole Olsen", "password789", "email3@gmail.com")
-        );
+        return customerService.getCustomers();
     }
 
     @GetMapping(path = "{customerId}")
