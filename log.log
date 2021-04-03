@@ -1,0 +1,71 @@
+2021-04-03 21:03:15.054  INFO 14244 --- [main] com.example.demo.DemoJ16Application      : Starting DemoJ16Application using Java 16 on LAPTOP-CJEA347H with PID 14244 (C:\Users\Kjell\Desktop\demo-j-16\target\classes started by Kjell in C:\Users\Kjell\Desktop\demo-j-16)
+2021-04-03 21:03:15.057  INFO 14244 --- [main] com.example.demo.DemoJ16Application      : No active profile set, falling back to default profiles: default
+2021-04-03 21:03:15.646  INFO 14244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-03 21:03:15.685  INFO 14244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2021-04-03 21:03:15.842  INFO 14244 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=86966c03-ea69-3a37-8e48-d73eeb2074a6
+2021-04-03 21:03:15.867  INFO 14244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.example.demo.jsonplaceholder.JsonPlaceholderClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-03 21:03:16.109  INFO 14244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-03 21:03:16.116  INFO 14244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-03 21:03:16.117  INFO 14244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-03 21:03:16.235  INFO 14244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-03 21:03:16.236  INFO 14244 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1141 ms
+2021-04-03 21:03:16.273  INFO 14244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-03 21:03:16.353  INFO 14244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-03 21:03:16.493  INFO 14244 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-03 21:03:16.583  INFO 14244 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-03 21:03:16.618  INFO 14244 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-03 21:03:16.699  INFO 14244 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-03 21:03:16.784  INFO 14244 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-03 21:03:17.201  INFO 14244 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-03 21:03:17.208  INFO 14244 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-03 21:03:17.446  WARN 14244 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-03 21:03:17.577  INFO 14244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-03 21:03:17.861  INFO 14244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-03 21:03:17.930  INFO 14244 --- [main] com.example.demo.DemoJ16Application      : Started DemoJ16Application in 3.29 seconds (JVM running for 3.842)
+2021-04-03 21:03:48.947  INFO 15776 --- [main] com.example.demo.DemoJ16Application      : Starting DemoJ16Application using Java 16 on LAPTOP-CJEA347H with PID 15776 (C:\Users\Kjell\Desktop\demo-j-16\target\classes started by Kjell in C:\Users\Kjell\Desktop\demo-j-16)
+2021-04-03 21:03:48.996  INFO 15776 --- [main] com.example.demo.DemoJ16Application      : No active profile set, falling back to default profiles: default
+2021-04-03 21:03:49.599  INFO 15776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-03 21:03:49.639  INFO 15776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2021-04-03 21:03:49.755  INFO 15776 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=86966c03-ea69-3a37-8e48-d73eeb2074a6
+2021-04-03 21:03:49.779  INFO 15776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.example.demo.jsonplaceholder.JsonPlaceholderClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-03 21:03:50.020  INFO 15776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-03 21:03:50.027  INFO 15776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-03 21:03:50.027  INFO 15776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-03 21:03:50.146  INFO 15776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-03 21:03:50.146  INFO 15776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1108 ms
+2021-04-03 21:03:50.180  INFO 15776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-03 21:03:50.258  INFO 15776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-03 21:03:50.402  INFO 15776 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-03 21:03:50.499  INFO 15776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-03 21:03:50.532  INFO 15776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-03 21:03:50.616  INFO 15776 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-03 21:03:50.696  INFO 15776 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-03 21:03:51.091  INFO 15776 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-03 21:03:51.099  INFO 15776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-03 21:03:51.355  WARN 15776 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-03 21:03:51.501  INFO 15776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-03 21:03:51.805  INFO 15776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-03 21:03:51.877  INFO 15776 --- [main] com.example.demo.DemoJ16Application      : Started DemoJ16Application in 3.376 seconds (JVM running for 3.949)
+2021-04-03 21:06:02.294  INFO 22320 --- [main] com.example.demo.DemoJ16Application      : Starting DemoJ16Application using Java 16 on LAPTOP-CJEA347H with PID 22320 (C:\Users\Kjell\Desktop\demo-j-16\target\classes started by Kjell in C:\Users\Kjell\Desktop\demo-j-16)
+2021-04-03 21:06:02.297  INFO 22320 --- [main] com.example.demo.DemoJ16Application      : No active profile set, falling back to default profiles: default
+2021-04-03 21:06:02.936  INFO 22320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-03 21:06:02.982  INFO 22320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2021-04-03 21:06:03.103  INFO 22320 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=86966c03-ea69-3a37-8e48-d73eeb2074a6
+2021-04-03 21:06:03.128  INFO 22320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.example.demo.jsonplaceholder.JsonPlaceholderClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-03 21:06:03.389  INFO 22320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-03 21:06:03.397  INFO 22320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-03 21:06:03.397  INFO 22320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-03 21:06:03.520  INFO 22320 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-03 21:06:03.520  INFO 22320 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1172 ms
+2021-04-03 21:06:03.553  INFO 22320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-03 21:06:03.632  INFO 22320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-03 21:06:03.776  INFO 22320 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-03 21:06:03.871  INFO 22320 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-03 21:06:03.905  INFO 22320 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-03 21:06:03.990  INFO 22320 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-03 21:06:04.070  INFO 22320 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-03 21:06:04.486  INFO 22320 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-03 21:06:04.493  INFO 22320 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-03 21:06:04.742  WARN 22320 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-03 21:06:04.878  INFO 22320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-03 21:06:05.167  INFO 22320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
